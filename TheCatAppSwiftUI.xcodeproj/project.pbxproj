@@ -3,18 +3,27 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		250FF3DF9E6920E1FEF22F2C /* Pods_TheCatAppSwiftUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9E293B561AFAE29DD65F8978 /* Pods_TheCatAppSwiftUITests.framework */; };
+		3916BD39AE7C20125265D658 /* Pods_TheCatAppSwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E1988F399B7F3DE35325564B /* Pods_TheCatAppSwiftUI.framework */; };
 		844701D223ED875100A5B3A0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 844701D123ED875100A5B3A0 /* AppDelegate.swift */; };
 		844701D423ED875100A5B3A0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 844701D323ED875100A5B3A0 /* SceneDelegate.swift */; };
-		844701D623ED875100A5B3A0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 844701D523ED875100A5B3A0 /* ContentView.swift */; };
 		844701D823ED875A00A5B3A0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 844701D723ED875A00A5B3A0 /* Assets.xcassets */; };
 		844701DB23ED875A00A5B3A0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 844701DA23ED875A00A5B3A0 /* Preview Assets.xcassets */; };
 		844701DE23ED875A00A5B3A0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 844701DC23ED875A00A5B3A0 /* LaunchScreen.storyboard */; };
 		844701E923ED875B00A5B3A0 /* TheCatAppSwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 844701E823ED875B00A5B3A0 /* TheCatAppSwiftUITests.swift */; };
 		844701F423ED875B00A5B3A0 /* TheCatAppSwiftUIUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 844701F323ED875B00A5B3A0 /* TheCatAppSwiftUIUITests.swift */; };
+		8447020323ED896B00A5B3A0 /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8447020223ED896B00A5B3A0 /* NetworkService.swift */; };
+		8447020823ED8F7800A5B3A0 /* Cat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8447020723ED8F7800A5B3A0 /* Cat.swift */; };
+		8447020C23ED8F8000A5B3A0 /* CatsListModelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8447020A23ED8F8000A5B3A0 /* CatsListModelView.swift */; };
+		8447020D23ED8F8000A5B3A0 /* InstalImageByURL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8447020B23ED8F8000A5B3A0 /* InstalImageByURL.swift */; };
+		8447021423ED8F9100A5B3A0 /* CatCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8447021023ED8F9100A5B3A0 /* CatCell.swift */; };
+		8447021523ED8F9100A5B3A0 /* DitailCat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8447021223ED8F9100A5B3A0 /* DitailCat.swift */; };
+		8447021623ED8F9100A5B3A0 /* CatsListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8447021323ED8F9100A5B3A0 /* CatsListView.swift */; };
+		FBBFF38DB23CA92601A6431A /* Pods_TheCatAppSwiftUI_TheCatAppSwiftUIUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C89947C2D9E3B8E494C72DE /* Pods_TheCatAppSwiftUI_TheCatAppSwiftUIUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,10 +44,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0C89947C2D9E3B8E494C72DE /* Pods_TheCatAppSwiftUI_TheCatAppSwiftUIUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TheCatAppSwiftUI_TheCatAppSwiftUIUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		417310DCA2CC1D1B11D0A37E /* Pods-TheCatAppSwiftUI-TheCatAppSwiftUIUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TheCatAppSwiftUI-TheCatAppSwiftUIUITests.debug.xcconfig"; path = "Target Support Files/Pods-TheCatAppSwiftUI-TheCatAppSwiftUIUITests/Pods-TheCatAppSwiftUI-TheCatAppSwiftUIUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		4E3911B26EC0DE6398B81C47 /* Pods-TheCatAppSwiftUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TheCatAppSwiftUITests.debug.xcconfig"; path = "Target Support Files/Pods-TheCatAppSwiftUITests/Pods-TheCatAppSwiftUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		6FDCE82297B34A79CCD6A407 /* Pods-TheCatAppSwiftUI.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TheCatAppSwiftUI.release.xcconfig"; path = "Target Support Files/Pods-TheCatAppSwiftUI/Pods-TheCatAppSwiftUI.release.xcconfig"; sourceTree = "<group>"; };
 		844701CE23ED875100A5B3A0 /* TheCatAppSwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TheCatAppSwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		844701D123ED875100A5B3A0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		844701D323ED875100A5B3A0 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		844701D523ED875100A5B3A0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		844701D723ED875A00A5B3A0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		844701DA23ED875A00A5B3A0 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		844701DD23ED875A00A5B3A0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +61,18 @@
 		844701EF23ED875B00A5B3A0 /* TheCatAppSwiftUIUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TheCatAppSwiftUIUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		844701F323ED875B00A5B3A0 /* TheCatAppSwiftUIUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TheCatAppSwiftUIUITests.swift; sourceTree = "<group>"; };
 		844701F523ED875B00A5B3A0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8447020223ED896B00A5B3A0 /* NetworkService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkService.swift; sourceTree = "<group>"; };
+		8447020723ED8F7800A5B3A0 /* Cat.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Cat.swift; sourceTree = "<group>"; };
+		8447020A23ED8F8000A5B3A0 /* CatsListModelView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CatsListModelView.swift; sourceTree = "<group>"; };
+		8447020B23ED8F8000A5B3A0 /* InstalImageByURL.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InstalImageByURL.swift; sourceTree = "<group>"; };
+		8447021023ED8F9100A5B3A0 /* CatCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CatCell.swift; sourceTree = "<group>"; };
+		8447021223ED8F9100A5B3A0 /* DitailCat.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DitailCat.swift; sourceTree = "<group>"; };
+		8447021323ED8F9100A5B3A0 /* CatsListView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CatsListView.swift; sourceTree = "<group>"; };
+		9E293B561AFAE29DD65F8978 /* Pods_TheCatAppSwiftUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TheCatAppSwiftUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BBE723BBCC5B873376CFA2F9 /* Pods-TheCatAppSwiftUI-TheCatAppSwiftUIUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TheCatAppSwiftUI-TheCatAppSwiftUIUITests.release.xcconfig"; path = "Target Support Files/Pods-TheCatAppSwiftUI-TheCatAppSwiftUIUITests/Pods-TheCatAppSwiftUI-TheCatAppSwiftUIUITests.release.xcconfig"; sourceTree = "<group>"; };
+		C13065776ABE456348B68453 /* Pods-TheCatAppSwiftUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TheCatAppSwiftUITests.release.xcconfig"; path = "Target Support Files/Pods-TheCatAppSwiftUITests/Pods-TheCatAppSwiftUITests.release.xcconfig"; sourceTree = "<group>"; };
+		D1FA4826D109EE41C316724B /* Pods-TheCatAppSwiftUI.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TheCatAppSwiftUI.debug.xcconfig"; path = "Target Support Files/Pods-TheCatAppSwiftUI/Pods-TheCatAppSwiftUI.debug.xcconfig"; sourceTree = "<group>"; };
+		E1988F399B7F3DE35325564B /* Pods_TheCatAppSwiftUI.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TheCatAppSwiftUI.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +80,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3916BD39AE7C20125265D658 /* Pods_TheCatAppSwiftUI.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +88,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				250FF3DF9E6920E1FEF22F2C /* Pods_TheCatAppSwiftUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +96,26 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FBBFF38DB23CA92601A6431A /* Pods_TheCatAppSwiftUI_TheCatAppSwiftUIUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0D0A425A86B457C80D3BDFDE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D1FA4826D109EE41C316724B /* Pods-TheCatAppSwiftUI.debug.xcconfig */,
+				6FDCE82297B34A79CCD6A407 /* Pods-TheCatAppSwiftUI.release.xcconfig */,
+				417310DCA2CC1D1B11D0A37E /* Pods-TheCatAppSwiftUI-TheCatAppSwiftUIUITests.debug.xcconfig */,
+				BBE723BBCC5B873376CFA2F9 /* Pods-TheCatAppSwiftUI-TheCatAppSwiftUIUITests.release.xcconfig */,
+				4E3911B26EC0DE6398B81C47 /* Pods-TheCatAppSwiftUITests.debug.xcconfig */,
+				C13065776ABE456348B68453 /* Pods-TheCatAppSwiftUITests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		844701C523ED875100A5B3A0 = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +123,8 @@
 				844701E723ED875B00A5B3A0 /* TheCatAppSwiftUITests */,
 				844701F223ED875B00A5B3A0 /* TheCatAppSwiftUIUITests */,
 				844701CF23ED875100A5B3A0 /* Products */,
+				0D0A425A86B457C80D3BDFDE /* Pods */,
+				B1249A5F042AC4F825237F85 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,9 +141,11 @@
 		844701D023ED875100A5B3A0 /* TheCatAppSwiftUI */ = {
 			isa = PBXGroup;
 			children = (
-				844701D123ED875100A5B3A0 /* AppDelegate.swift */,
-				844701D323ED875100A5B3A0 /* SceneDelegate.swift */,
-				844701D523ED875100A5B3A0 /* ContentView.swift */,
+				8447020123ED896B00A5B3A0 /* Service */,
+				8447020E23ED8F9100A5B3A0 /* UI */,
+				8447020923ED8F8000A5B3A0 /* ModelView */,
+				8447020623ED8F7800A5B3A0 /* Model */,
+				8447020423ED89A100A5B3A0 /* Configuration */,
 				844701D723ED875A00A5B3A0 /* Assets.xcassets */,
 				844701DC23ED875A00A5B3A0 /* LaunchScreen.storyboard */,
 				844701DF23ED875A00A5B3A0 /* Info.plist */,
@@ -136,6 +180,76 @@
 			path = TheCatAppSwiftUIUITests;
 			sourceTree = "<group>";
 		};
+		8447020123ED896B00A5B3A0 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				8447020223ED896B00A5B3A0 /* NetworkService.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		8447020423ED89A100A5B3A0 /* Configuration */ = {
+			isa = PBXGroup;
+			children = (
+				844701D323ED875100A5B3A0 /* SceneDelegate.swift */,
+				844701D123ED875100A5B3A0 /* AppDelegate.swift */,
+			);
+			path = Configuration;
+			sourceTree = "<group>";
+		};
+		8447020623ED8F7800A5B3A0 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				8447020723ED8F7800A5B3A0 /* Cat.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		8447020923ED8F8000A5B3A0 /* ModelView */ = {
+			isa = PBXGroup;
+			children = (
+				8447020A23ED8F8000A5B3A0 /* CatsListModelView.swift */,
+				8447020B23ED8F8000A5B3A0 /* InstalImageByURL.swift */,
+			);
+			path = ModelView;
+			sourceTree = "<group>";
+		};
+		8447020E23ED8F9100A5B3A0 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				8447020F23ED8F9100A5B3A0 /* Cells */,
+				8447021123ED8F9100A5B3A0 /* Screen */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		8447020F23ED8F9100A5B3A0 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				8447021023ED8F9100A5B3A0 /* CatCell.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		8447021123ED8F9100A5B3A0 /* Screen */ = {
+			isa = PBXGroup;
+			children = (
+				8447021223ED8F9100A5B3A0 /* DitailCat.swift */,
+				8447021323ED8F9100A5B3A0 /* CatsListView.swift */,
+			);
+			path = Screen;
+			sourceTree = "<group>";
+		};
+		B1249A5F042AC4F825237F85 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E1988F399B7F3DE35325564B /* Pods_TheCatAppSwiftUI.framework */,
+				0C89947C2D9E3B8E494C72DE /* Pods_TheCatAppSwiftUI_TheCatAppSwiftUIUITests.framework */,
+				9E293B561AFAE29DD65F8978 /* Pods_TheCatAppSwiftUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -143,9 +257,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 844701F823ED875B00A5B3A0 /* Build configuration list for PBXNativeTarget "TheCatAppSwiftUI" */;
 			buildPhases = (
+				9B0D12DC4013B517C0D15E32 /* [CP] Check Pods Manifest.lock */,
 				844701CA23ED875100A5B3A0 /* Sources */,
 				844701CB23ED875100A5B3A0 /* Frameworks */,
 				844701CC23ED875100A5B3A0 /* Resources */,
+				7E50AB22FD441B80B6F5114C /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -160,6 +276,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 844701FB23ED875B00A5B3A0 /* Build configuration list for PBXNativeTarget "TheCatAppSwiftUITests" */;
 			buildPhases = (
+				47FF2B0CAFC10BC12F572AC7 /* [CP] Check Pods Manifest.lock */,
 				844701E023ED875A00A5B3A0 /* Sources */,
 				844701E123ED875A00A5B3A0 /* Frameworks */,
 				844701E223ED875A00A5B3A0 /* Resources */,
@@ -178,9 +295,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 844701FE23ED875B00A5B3A0 /* Build configuration list for PBXNativeTarget "TheCatAppSwiftUIUITests" */;
 			buildPhases = (
+				FABAD1FF1BFB84AB2962B3A9 /* [CP] Check Pods Manifest.lock */,
 				844701EB23ED875B00A5B3A0 /* Sources */,
 				844701EC23ED875B00A5B3A0 /* Frameworks */,
 				844701ED23ED875B00A5B3A0 /* Resources */,
+				9921EE0AEBD0DFD3F4D7BC25 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -262,14 +381,123 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		47FF2B0CAFC10BC12F572AC7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TheCatAppSwiftUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7E50AB22FD441B80B6F5114C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TheCatAppSwiftUI/Pods-TheCatAppSwiftUI-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TheCatAppSwiftUI/Pods-TheCatAppSwiftUI-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TheCatAppSwiftUI/Pods-TheCatAppSwiftUI-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9921EE0AEBD0DFD3F4D7BC25 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TheCatAppSwiftUI-TheCatAppSwiftUIUITests/Pods-TheCatAppSwiftUI-TheCatAppSwiftUIUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TheCatAppSwiftUI-TheCatAppSwiftUIUITests/Pods-TheCatAppSwiftUI-TheCatAppSwiftUIUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TheCatAppSwiftUI-TheCatAppSwiftUIUITests/Pods-TheCatAppSwiftUI-TheCatAppSwiftUIUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9B0D12DC4013B517C0D15E32 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TheCatAppSwiftUI-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FABAD1FF1BFB84AB2962B3A9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TheCatAppSwiftUI-TheCatAppSwiftUIUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		844701CA23ED875100A5B3A0 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8447021423ED8F9100A5B3A0 /* CatCell.swift in Sources */,
 				844701D223ED875100A5B3A0 /* AppDelegate.swift in Sources */,
 				844701D423ED875100A5B3A0 /* SceneDelegate.swift in Sources */,
-				844701D623ED875100A5B3A0 /* ContentView.swift in Sources */,
+				8447021623ED8F9100A5B3A0 /* CatsListView.swift in Sources */,
+				8447021523ED8F9100A5B3A0 /* DitailCat.swift in Sources */,
+				8447020823ED8F7800A5B3A0 /* Cat.swift in Sources */,
+				8447020D23ED8F8000A5B3A0 /* InstalImageByURL.swift in Sources */,
+				8447020C23ED8F8000A5B3A0 /* CatsListModelView.swift in Sources */,
+				8447020323ED896B00A5B3A0 /* NetworkService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -432,6 +660,7 @@
 		};
 		844701F923ED875B00A5B3A0 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D1FA4826D109EE41C316724B /* Pods-TheCatAppSwiftUI.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -452,6 +681,7 @@
 		};
 		844701FA23ED875B00A5B3A0 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6FDCE82297B34A79CCD6A407 /* Pods-TheCatAppSwiftUI.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -472,6 +702,7 @@
 		};
 		844701FC23ED875B00A5B3A0 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4E3911B26EC0DE6398B81C47 /* Pods-TheCatAppSwiftUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -494,6 +725,7 @@
 		};
 		844701FD23ED875B00A5B3A0 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C13065776ABE456348B68453 /* Pods-TheCatAppSwiftUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -516,6 +748,7 @@
 		};
 		844701FF23ED875B00A5B3A0 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 417310DCA2CC1D1B11D0A37E /* Pods-TheCatAppSwiftUI-TheCatAppSwiftUIUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -536,6 +769,7 @@
 		};
 		8447020023ED875B00A5B3A0 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BBE723BBCC5B873376CFA2F9 /* Pods-TheCatAppSwiftUI-TheCatAppSwiftUIUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
