@@ -1,20 +1,16 @@
 PODS:
   - Alamofire (4.9.1)
-  - SwiftPhotoGallery (3.4.1)
 
 DEPENDENCIES:
   - Alamofire
-  - SwiftPhotoGallery
 
 SPEC REPOS:
   trunk:
     - Alamofire
-    - SwiftPhotoGallery
 
 SPEC CHECKSUMS:
   Alamofire: 85e8a02c69d6020a0d734f6054870d7ecb75cf18
-  SwiftPhotoGallery: 795b79e2596beb160fb978e232603da0811006ce
 
-PODFILE CHECKSUM: 1c3ed73f2284b0311701f50e1085e9c183966108
+PODFILE CHECKSUM: 56c00c2d987d88281e8dbace05ab135a160b147b
 
 COCOAPODS: 1.8.4

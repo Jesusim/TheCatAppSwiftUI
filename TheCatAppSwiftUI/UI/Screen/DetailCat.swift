@@ -8,7 +8,7 @@
 
 import SwiftUI
 
-struct DitailCat: View {
+struct DetailCat: View {
     
     var cat : Cat
        

@@ -24,7 +24,7 @@ struct CatsListView: View {
                 
                 List(viewModel.cats) { cat in
                     
-                    NavigationLink(destination: DitailCat(cat: cat), label: {
+                    NavigationLink(destination: DetailCat(cat: cat), label: {
                         CatCell(cat: cat)
                     })
                         
